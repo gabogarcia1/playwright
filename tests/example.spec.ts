@@ -1,7 +1,6 @@
-import { test, expect, request, chromium } from "@playwright/test";
+import { test, chromium } from "@playwright/test";
 import * as loginData from "../fixtures/loginFixtures.json";
 import * as productData from "../fixtures/products.json";
-import * as fs from "fs";
 
 import { HomePage } from "../support/Pages/homePage";
 import { CheckOutPage } from "../support/Pages/checkoutPage";

@@ -1,5 +1,5 @@
 import { BasePage } from "./base.page";
-import { expect, Page, Locator } from "@playwright/test";
+import {  Page, Locator } from "@playwright/test";
 
 export class HomePage extends BasePage {
   readonly todolistlink: Locator;
